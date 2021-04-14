@@ -96,6 +96,7 @@ class CarInterface(CarInterfaceBase):
       ret.mass = 1395. + STD_CARGO_KG
       ret.wheelbase = 2.6
       tire_stiffness_factor = 0.6
+      ret.maxSteeringAngleDeg = 120.
     elif candidate in [CAR.IONIQ, CAR.IONIQ_EV_LTD]:
       ret.mass = 1490. + STD_CARGO_KG   #weight per hyundai site https://www.hyundaiusa.com/ioniq-electric/specifications.aspx
       ret.wheelbase = 2.7
